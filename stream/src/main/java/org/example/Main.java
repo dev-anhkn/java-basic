@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -42,7 +44,7 @@ public class Main {
                 .filter(player -> player.getName().length() > 10)
 
                 // Bước 2: Sắp xếp theo số bàn thắng giảm dần
-                .sorted((p1, p2) -> p2.getGoals() - p1.getGoals())
+                .sorted((p1, p2) -> Integer.compare(p2.getGoals(), p1.getGoals()))
 
                 // Bước 3: Lấy top 3 cầu thủ
                 .limit(3)
@@ -50,6 +52,19 @@ public class Main {
                 // Thu thập lại thành danh sách
                 .toList();
         System.out.println("filteredPlayersStream" + filteredPlayersStream);
-    }
 
+        // từ Player → String
+        List<String> names = players.stream().map(Player::getName).toList();
+
+        System.out.println("map" + names);
+
+        List<List<String>> listOfLists = Arrays.asList(
+                Arrays.asList("a", "b"),
+                Arrays.asList("c", "d")
+        );
+
+        // "làm phẳng" Stream<List<String>> → Stream<String>
+        List<String> flatList = listOfLists.stream().flatMap(Collection::stream).toList();
+        System.out.println("flatList" + flatList);
+    }
 }

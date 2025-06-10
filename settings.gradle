@@ -1,1 +1,1 @@
-rootProject.name = 'java-basic'include 'stream'
+rootProject.name = 'java-basic'include 'stream'include 'thread'
