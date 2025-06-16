@@ -1,1 +1,1 @@
-rootProject.name = 'java-basic'include 'stream'include 'thread'
+rootProject.name = 'java-basic'include 'stream'include 'thread'include 'design-pattens'
