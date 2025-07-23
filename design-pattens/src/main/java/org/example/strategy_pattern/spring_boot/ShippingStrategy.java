@@ -1,0 +1,1 @@
+package org.example.strategy_pattern.spring_boot;import org.example.strategy_pattern.delivery.EShippingType;import org.example.strategy_pattern.delivery.Order;public interface ShippingStrategy {    EShippingType getType();    int calculateFee(Order order);}

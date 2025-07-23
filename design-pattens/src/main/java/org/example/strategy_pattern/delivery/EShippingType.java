@@ -1,0 +1,1 @@
+package org.example.strategy_pattern.delivery;public enum EShippingType {    STANDARD,    EXPRESS,    SAME_DAY}

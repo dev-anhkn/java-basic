@@ -1,0 +1,1 @@
+package org.example.strategy_pattern.delivery;public class Order {    private int weightInGram;    public Order(int weightInGram) {        this.weightInGram = weightInGram;    }    public int getWeightInGram() {        return weightInGram;    }    public void setWeightInGram(int weightInGram) {        this.weightInGram = weightInGram;    }}
