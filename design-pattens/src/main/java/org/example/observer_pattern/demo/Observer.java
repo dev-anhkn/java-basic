@@ -1,0 +1,1 @@
+package org.example.observer_pattern.demo;public interface Observer {    void update(String message);}
