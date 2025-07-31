@@ -1,1 +1,0 @@
-package org.example.observer_pattern.spring_boot_nd;import org.example.observer_pattern.spring_boot.Order;public interface Observer {    void update(Order order);}

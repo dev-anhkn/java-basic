@@ -1,1 +1,0 @@
-package org.example.observer_pattern.spring_boot_nd;import org.example.observer_pattern.spring_boot.Order;import org.springframework.stereotype.Component;@Componentpublic class OrderLoggingService implements Observer {    @Override    public void update(Order order) {        System.out.println("📝 Ghi log đơn hàng: " + order.getId());    }}

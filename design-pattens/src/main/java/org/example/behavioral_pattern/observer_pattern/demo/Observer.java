@@ -1,0 +1,1 @@
+package org.example.behavioral_pattern.observer_pattern.demo;public interface Observer {    void update(String message);}

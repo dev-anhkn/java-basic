@@ -1,1 +1,0 @@
-package org.example.observer_pattern.spring_boot_nd;import org.example.observer_pattern.spring_boot.Order;import org.springframework.stereotype.Component;@Componentpublic class AdminDashboardNotifier implements Observer{    @Override    public void update(Order order) {        System.out.println("📡 Cập nhật dashboard với đơn hàng: " + order.getId());    }}

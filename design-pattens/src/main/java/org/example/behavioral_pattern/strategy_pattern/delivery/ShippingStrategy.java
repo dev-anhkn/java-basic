@@ -1,0 +1,1 @@
+package org.example.behavioral_pattern.strategy_pattern.delivery;public interface ShippingStrategy {    int calculateFee(Order order);}
