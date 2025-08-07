@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="" />
+    <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-doc/src/main/resources/Các+lệnh+javadoc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-doc/src/main/resources/javadoc_guidelines.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialization/src/main/java/org/example/DeserializationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialization/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialization/src/main/java/org/example/SerializationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -35,29 +49,70 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="30xmigTnJL5AfzFjC0sfgjmL0mb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor": "Run",
     "Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor": "Run",
+    "Gradle.java-basic:generic [:generic:ContainerExample.main()].executor": "Run",
+    "Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor": "Run",
+    "Gradle.java-basic:generic [:generic:WildcardExample.main()].executor": "Run",
+    "Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor": "Run",
+    "Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "develop",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/dev/my/java-basic/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/dev.anhkn/Development/github/java-basic/generic/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\dev\my\java-basic\design-pattens\src\main\java\org\example\creational_pattern\singleton_pattern\img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generic/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/serialization/src/main/resources" />
+      <recent name="$PROJECT_DIR$/serialization/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/java-doc/src/main/resources" />
+      <recent name="$PROJECT_DIR$/java-doc/src/main/java/org/example" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Car" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorPatternDemo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.creational_pattern.factory_pattern.demo.Client" />
-      <module name="java-basic.design-pattens.main" />
+  <component name="RunManager" selected="Application.WildcardExample">
+    <configuration name="ContainerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.service.ContainerExample" />
+      <module name="java-basic.generic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.creational_pattern.factory_pattern.demo.*" />
+          <option name="PATTERN" value="org.example.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.structural_pattern.decorator_pattern.demo.DecoratorPatternDemo" />
-      <module name="java-basic.design-pattens.main" />
+    <configuration name="DeserializationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DeserializationExample" />
+      <module name="java-basic.serialization.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.structural_pattern.decorator_pattern.demo.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.creational_pattern.builder_pattern.computer_builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.creational_pattern.builder_pattern.computer_builder.Main" />
-      <module name="java-basic.design-pattens.main" />
+    <configuration name="MethodReturnExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.method.MethodReturnExample" />
+      <module name="java-basic.generic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.creational_pattern.builder_pattern.computer_builder.*" />
+          <option name="PATTERN" value="org.example.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.creational_pattern.builder_pattern.demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.creational_pattern.builder_pattern.demo.Main" />
-      <module name="java-basic.design-pattens.main" />
+    <configuration name="SerializationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SerializationExample" />
+      <module name="java-basic.serialization.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.creational_pattern.builder_pattern.demo.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.singleton_pattern.load_balancer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.singleton_pattern.load_balancer.Main" />
-      <module name="java-basic.design-pattens.main" />
+    <configuration name="WildcardExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.wildcard.WildcardExample" />
+      <module name="java-basic.generic.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.singleton_pattern.load_balancer.*" />
+          <option name="PATTERN" value="org.example.wildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,23 +174,27 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DecoratorPatternDemo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.org.example.creational_pattern.builder_pattern.computer_builder.Main" />
-        <item itemvalue="Application.org.example.creational_pattern.builder_pattern.demo.Main" />
-        <item itemvalue="Application.org.example.singleton_pattern.load_balancer.Main" />
+        <item itemvalue="Application.ContainerExample" />
+        <item itemvalue="Application.WildcardExample" />
+        <item itemvalue="Application.MethodReturnExample" />
+        <item itemvalue="Application.DeserializationExample" />
+        <item itemvalue="Application.SerializationExample" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="" />
+      <created>1754577727542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754577727542</updated>
+      <workItem from="1754577729016" duration="6495000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
