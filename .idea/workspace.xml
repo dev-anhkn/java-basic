@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-doc/src/main/resources/Các+lệnh+javadoc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-doc/src/main/resources/javadoc_guidelines.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serialization/src/main/java/org/example/DeserializationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serialization/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serialization/src/main/java/org/example/SerializationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoicePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/src/main/resources/SOLID.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/connection/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/connection/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattens/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stream/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/thread/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,42 +62,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30xmigTnJL5AfzFjC0sfgjmL0mb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor": "Run",
-    "Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor": "Run",
-    "Gradle.java-basic:generic [:generic:ContainerExample.main()].executor": "Run",
-    "Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor": "Run",
-    "Gradle.java-basic:generic [:generic:WildcardExample.main()].executor": "Run",
-    "Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor": "Run",
-    "Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "develop",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/dev/my/java-basic/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/dev.anhkn/Development/github/java-basic/generic/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:generic [:generic:ContainerExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:generic [:generic:WildcardExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/dev/my/java-basic/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dev.anhkn/Development/github/java-basic/generic/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\dev\my\java-basic\design-pattens\src\main\java\org\example\creational_pattern\singleton_pattern\img" />
@@ -182,6 +189,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -191,6 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754577727542</updated>
       <workItem from="1754577729016" duration="6495000" />
+      <workItem from="1754618017693" duration="632000" />
     </task>
     <servers />
   </component>

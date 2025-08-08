@@ -2,6 +2,7 @@ package org.example;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import lombok.extern.slf4j.Slf4j;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +10,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+@Slf4j
 public class Main {
+
     public static void main(String[] args) throws Exception {
         String url = "jdbc:postgresql://localhost:5431/db_project";
         String username = "u_account";
@@ -25,8 +28,8 @@ public class Main {
             }
         }
         long endDirect = System.currentTimeMillis();
-        System.out.println("\n--- [SINGLE THREAD] ---");
-        System.out.println("Direct connect total time: " + (endDirect - startDirect) + " ms");
+        log.info("\n--- [SINGLE THREAD] ---");
+        log.info("Direct connect total time: {} ms", (endDirect - startDirect));
 
         // 2. Đo thời gian connection pool (single thread)
         HikariConfig config = new HikariConfig();
@@ -43,11 +46,11 @@ public class Main {
             }
         }
         long endPool = System.currentTimeMillis();
-        System.out.println("Connection pool total time: " + (endPool - startPool) + " ms");
+        log.info("Connection pool total time: {} ms", (endPool - startPool));
         ds.close();
 
         // 3. Multi-thread direct connect
-        System.out.println("\n--- [MULTI-THREAD: DIRECT CONNECT] ---");
+        log.info("\n--- [MULTI-THREAD: DIRECT CONNECT] ---");
         int threadCount = 500;
         ExecutorService executorDirect = Executors.newFixedThreadPool(threadCount);
         CountDownLatch latchDirect = new CountDownLatch(threadCount);
@@ -58,9 +61,9 @@ public class Main {
             executorDirect.submit(() -> {
                 try (Connection conn = DriverManager.getConnection(url, username, password)) {
                     Thread.sleep(200); // giả lập query tốn thời gian
-                    System.out.println("Direct: Thread " + id + " connected successfully");
+                    log.debug("Direct: Thread {} connected successfully", id);
                 } catch (Exception ex) {
-                    System.err.println("Direct: Thread " + id + " FAILED: " + ex.getMessage());
+                    log.error("Direct: Thread {} FAILED: {}", id, ex.getMessage());
                 } finally {
                     latchDirect.countDown();
                 }
@@ -69,15 +72,15 @@ public class Main {
         latchDirect.await();
         executorDirect.shutdown();
         long endDirectMulti = System.currentTimeMillis();
-        System.out.println("Direct connect (multi-thread) total time: " + (endDirectMulti - startDirectMulti) + " ms");
+        log.info("Direct connect (multi-thread) total time: {} ms", (endDirectMulti - startDirectMulti));
 
         // 4. Multi-thread connection pool
-        System.out.println("\n--- [MULTI-THREAD: CONNECTION POOL] ---");
+        log.info("\n--- [MULTI-THREAD: CONNECTION POOL] ---");
         HikariConfig configPool = new HikariConfig();
         configPool.setJdbcUrl(url);
         configPool.setUsername(username);
         configPool.setPassword(password);
-        configPool.setMaximumPoolSize(10); // tối đa 10 connection
+        configPool.setMaximumPoolSize(10);
         HikariDataSource dsPool = new HikariDataSource(configPool);
 
         ExecutorService executorPool = Executors.newFixedThreadPool(threadCount);
@@ -88,10 +91,10 @@ public class Main {
             final int id = i;
             executorPool.submit(() -> {
                 try (Connection conn = dsPool.getConnection()) {
-                    Thread.sleep(200); // giả lập query tốn thời gian
-                    System.out.println("Pool:   Thread " + id + " got connection from pool");
+                    Thread.sleep(200);
+                    log.debug("Pool:   Thread {} got connection from pool", id);
                 } catch (Exception ex) {
-                    System.err.println("Pool:   Thread " + id + " FAILED: " + ex.getMessage());
+                    log.error("Pool:   Thread {} FAILED: {}", id, ex.getMessage());
                 } finally {
                     latchPool.countDown();
                 }
@@ -101,8 +104,8 @@ public class Main {
         executorPool.shutdown();
         dsPool.close();
         long endPoolMulti = System.currentTimeMillis();
-        System.out.println("Connection pool (multi-thread) total time: " + (endPoolMulti - startPoolMulti) + " ms");
+        log.info("Connection pool (multi-thread) total time: {} ms", (endPoolMulti - startPoolMulti));
 
-        System.out.println("\n=== Kết thúc so sánh ===");
+        log.info("\n=== Kết thúc so sánh ===");
     }
 }
