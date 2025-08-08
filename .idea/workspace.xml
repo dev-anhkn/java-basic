@@ -5,21 +5,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/solid/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoicePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/main/resources/SOLID.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/connection/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/connection/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattens/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/PushvsPull.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/FacebookNewsFeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/AdminDashboardNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/DataWarehouseSyncService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/ObserverSpringBootApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderCreatedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderEmailNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderLoggingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/AdminDashboardNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/ObserverPatternApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/OrderEmailNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/OrderLoggingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/EShippingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/ShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/ShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/impl/ExpressShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/impl/SameDayShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/impl/StandardShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/demo/KickJumpMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/demo/PriceCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/demo/SortingDemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/img/UML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/img/kick_jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/img/sorting_context.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/ShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/ShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/StrategyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/impl/ExpressShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/impl/SameDayShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/impl/StandardShippingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/ComputerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/ComputerDirector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/GamingComputerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/OfficeComputerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/demo/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/CouchDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/DatabaseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/INoSqlDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/IRelationalDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/MongoDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/NoSQLDBFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/OracleDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/RelationalDBFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/SQLServerDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/demo/MySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img/Singleton.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/load_balancer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/load_balancer/RoundRobinLoadBalancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/BaseDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/DecoratorPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/FacebookDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/SMSDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/SimpleNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/SlackDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/facade_pattern/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/facade_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/proxy_pattern/ProxyPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/proxy_pattern/ProxySalaryRaiseDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/proxy_pattern/note.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stream/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/thread/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoicePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/src/main/resources/SOLID.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +270,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -207,6 +280,7 @@
       <updated>1754577727542</updated>
       <workItem from="1754577729016" duration="6495000" />
       <workItem from="1754618017693" duration="632000" />
+      <workItem from="1754668708665" duration="710000" />
     </task>
     <servers />
   </component>

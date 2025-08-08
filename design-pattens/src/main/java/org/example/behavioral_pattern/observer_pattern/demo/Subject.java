@@ -1,1 +1,0 @@
-package org.example.behavioral_pattern.observer_pattern.demo;public interface Subject {    void attach(Observer o);    void detach(Observer o);    void notifyObservers(String message);}

@@ -10,7 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/connection" />
-            <option value="$PROJECT_DIR$/design-pattens" />
             <option value="$PROJECT_DIR$/generic" />
             <option value="$PROJECT_DIR$/java-doc" />
             <option value="$PROJECT_DIR$/serialization" />

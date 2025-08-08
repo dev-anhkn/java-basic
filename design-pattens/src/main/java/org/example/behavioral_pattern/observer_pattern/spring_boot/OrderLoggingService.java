@@ -1,1 +1,0 @@
-package org.example.behavioral_pattern.observer_pattern.spring_boot;import org.springframework.context.event.EventListener;import org.springframework.stereotype.Component;@Componentpublic class OrderLoggingService {    @EventListener    public void logOrder(OrderCreatedEvent event) {        System.out.println("📝 Ghi log đơn hàng: " + event.getOrder().getId());    }}
