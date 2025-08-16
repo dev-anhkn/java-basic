@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/annotion/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/AnnotationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/org/example/my_annotation/AnnotationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/org/example/my_annotation/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/org/example/my_annotation/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotion/src/main/resources/java-annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/resources/java-annotation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +212,7 @@
       <updated>1754577727542</updated>
       <workItem from="1754577729016" duration="6495000" />
       <workItem from="1754618017693" duration="632000" />
-      <workItem from="1754668708665" duration="21377000" />
+      <workItem from="1754668708665" duration="21449000" />
     </task>
     <servers />
   </component>
