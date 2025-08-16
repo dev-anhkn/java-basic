@@ -5,102 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/AnnotationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotion/src/main/resources/java-annotation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok/src/main/resources/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/classes/ClassObjectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/field/FieldModifierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/field/HiddenField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/field/HiddenFieldExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/field/ModifierField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/method/PrivateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/main/java/org/example/method/PrivateMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/org/example/assignment/AlternatingPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/resources/_.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/resources/thread-overview.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/PushvsPull.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/FacebookNewsFeed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/demo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/AdminDashboardNotifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/DataWarehouseSyncService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/ObserverSpringBootApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderCreatedEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderEmailNotifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderLoggingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/AdminDashboardNotifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/ObserverPatternApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/OrderEmailNotifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/OrderLoggingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/observer_pattern/spring_boot_nd/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/EShippingType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/ShippingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/ShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/impl/ExpressShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/impl/SameDayShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/delivery/impl/StandardShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/demo/KickJumpMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/demo/PriceCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/demo/SortingDemoMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/img/UML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/img/kick_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/img/sorting_context.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/ShippingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/ShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/StrategyApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/impl/ExpressShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/impl/SameDayShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/behavioral_pattern/strategy_pattern/spring_boot/impl/StandardShippingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/Computer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/ComputerBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/ComputerDirector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/GamingComputerBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/computer_builder/OfficeComputerBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/demo/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/demo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/img/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/builder_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/CouchDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/DatabaseFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/INoSqlDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/IRelationalDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/MongoDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/NoSQLDBFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/OracleDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/RelationalDBFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/demo/SQLServerDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/img/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/factory_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/demo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/demo/MySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img/Singleton.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/load_balancer/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/load_balancer/RoundRobinLoadBalancer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/BaseDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/DecoratorPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/FacebookDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/Notifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/SMSDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/SimpleNotifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/demo/SlackDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/img/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/decorator_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/facade_pattern/demo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/facade_pattern/note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/proxy_pattern/ProxyPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/proxy_pattern/ProxySalaryRaiseDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattens/src/main/java/org/example/structural_pattern/proxy_pattern/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Invoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoicePrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/InvoiceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/srp/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid/src/main/resources/SOLID.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/org/example/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/org/example/demo/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/org/example/ThreadEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/org/example/demo/ThreadEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/org/example/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/org/example/demo/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/note.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +69,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -152,55 +84,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-basic:generic [:generic:ContainerExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-basic:generic [:generic:WildcardExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/dev/my/java-basic/design-pattens/src/main/java/org/example/creational_pattern/singleton_pattern/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dev.anhkn/Development/github/java-basic/generic/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.java-basic:annotion [:annotion:AnnotationReader.main()].executor": "Run",
+    "Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor": "Run",
+    "Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor": "Run",
+    "Gradle.java-basic:generic [:generic:ContainerExample.main()].executor": "Run",
+    "Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor": "Run",
+    "Gradle.java-basic:generic [:generic:WildcardExample.main()].executor": "Run",
+    "Gradle.java-basic:reflection [:reflection:ClassObjectExample.main()].executor": "Run",
+    "Gradle.java-basic:reflection [:reflection:HiddenFieldExample.main()].executor": "Run",
+    "Gradle.java-basic:reflection [:reflection:PrivateMethodExample.main()].executor": "Run",
+    "Gradle.java-basic:regex [:regex:RegexLogAnalysis.main()].executor": "Run",
+    "Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor": "Run",
+    "Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:AlternatingPrint.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:ApiFetcherFixedDelay.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:CachedThreadPool.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:FixedThreadPool.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:Main.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:OneTimeEmailSender.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:SensorFixedRate.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:SingleThreadExecutor.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:ThreadDemo.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:TicketMain.main()].executor": "Run",
+    "Gradle.java-basic:thread [:thread:TicketMainAtomic.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "develop",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dev.anhkn/Development/github/java-basic/thread/src/main/java/org/example/runable_simple",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/dev.anhkn/Development/github/java-basic/lombok/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/runable_simple" />
+      <recent name="$PROJECT_DIR$/reflection/src/main/java" />
       <recent name="E:\dev\my\java-basic\design-pattens\src\main\java\org\example\creational_pattern\singleton_pattern\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generic/src/main/java/org/example" />
-      <recent name="$PROJECT_DIR$/serialization/src/main/resources" />
-      <recent name="$PROJECT_DIR$/serialization/src/main/java/org/example" />
-      <recent name="$PROJECT_DIR$/java-doc/src/main/resources" />
-      <recent name="$PROJECT_DIR$/java-doc/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/synchronization" />
+      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/schduling_thread" />
+      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/thread_pool" />
+      <recent name="$PROJECT_DIR$/thread/src/main/resources" />
+      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/demo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Car" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WildcardExample">
-    <configuration name="ContainerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.service.ContainerExample" />
-      <module name="java-basic.generic.main" />
+  <component name="RunManager" selected="Application.AlternatingPrint">
+    <configuration name="AlternatingPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.assignment.AlternatingPrint" />
+      <module name="java-basic.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.service.*" />
+          <option name="PATTERN" value="org.example.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DeserializationExample" />
-      <module name="java-basic.serialization.main" />
+    <configuration name="ApiFetcherFixedDelay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.schduling_thread.scheduler.ApiFetcherFixedDelay" />
+      <module name="java-basic.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.schduling_thread.scheduler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReturnExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.method.MethodReturnExample" />
-      <module name="java-basic.generic.main" />
+    <configuration name="SensorFixedRate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.schduling_thread.scheduler.SensorFixedRate" />
+      <module name="java-basic.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.method.*" />
+          <option name="PATTERN" value="org.example.schduling_thread.scheduler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SerializationExample" />
-      <module name="java-basic.serialization.main" />
+    <configuration name="TicketMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synchronization.problem.TicketMain" />
+      <module name="java-basic.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.synchronization.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.wildcard.WildcardExample" />
-      <module name="java-basic.generic.main" />
+    <configuration name="TicketMainAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synchronization.solution.atomic.TicketMainAtomic" />
+      <module name="java-basic.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.wildcard.*" />
+          <option name="PATTERN" value="org.example.synchronization.solution.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainerExample" />
-        <item itemvalue="Application.WildcardExample" />
-        <item itemvalue="Application.MethodReturnExample" />
-        <item itemvalue="Application.DeserializationExample" />
-        <item itemvalue="Application.SerializationExample" />
+        <item itemvalue="Application.AlternatingPrint" />
+        <item itemvalue="Application.TicketMainAtomic" />
+        <item itemvalue="Application.TicketMain" />
+        <item itemvalue="Application.ApiFetcherFixedDelay" />
+        <item itemvalue="Application.SensorFixedRate" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +231,7 @@
       <updated>1754577727542</updated>
       <workItem from="1754577729016" duration="6495000" />
       <workItem from="1754618017693" duration="632000" />
-      <workItem from="1754668708665" duration="710000" />
+      <workItem from="1754668708665" duration="21050000" />
     </task>
     <servers />
   </component>

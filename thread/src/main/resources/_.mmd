@@ -1,0 +1,21 @@
+classDiagram
+    class NEW { +Thread được tạo nhưng chưa start }
+    class RUNNABLE { +Đã start, sẵn sàng/chạy }
+    class SUSPENDED { +Nhóm trạng thái chờ: BLOCKED / WAITING / TIMED_WAITING }
+    class BLOCKED { +Chờ lock (synchronized) }
+    class WAITING { +Chờ vô thời hạn (wait/join/park) }
+    class TIMED_WAITING { +Chờ có timeout (sleep/wait(ms)/join(ms)) }
+    class TERMINATED { +Thread đã kết thúc }
+
+%% dòng chính
+    NEW --> RUNNABLE : start()
+    RUNNABLE --> TERMINATED : run() completes
+
+%% gom nhóm chờ
+    RUNNABLE --> SUSPENDED : vào trạng thái chờ
+    SUSPENDED --> RUNNABLE : lock released / notify() / timeout / interrupt()
+
+%% chi tiết bên trong "cục" SUSPENDED
+    SUSPENDED <|-- BLOCKED
+    SUSPENDED <|-- WAITING
+    SUSPENDED <|-- TIMED_WAITING

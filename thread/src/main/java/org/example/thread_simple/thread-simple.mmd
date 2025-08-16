@@ -1,0 +1,18 @@
+classDiagram
+
+    class Main {
+        +static void main(String[] args)
+    }
+
+    class ThreadSimple {
+        +void run()
+    }
+
+    class Thread {
+        +void run()
+        +void start()
+    }
+
+
+    Thread <|-- ThreadSimple : extends
+    Main --> ThreadSimple : "creates & calls start()"

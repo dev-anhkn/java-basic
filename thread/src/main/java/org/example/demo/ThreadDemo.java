@@ -1,5 +1,4 @@
-package org.example;
-
+package org.example.demo;
 
 import java.time.LocalTime;
 import java.util.Random;
@@ -14,11 +13,11 @@ public class ThreadDemo {
         System.out.println(java.lang.Thread.currentThread().getName() + " TOTAL " + totalMoneyInWallet + " TIME | " + LocalTime.now());
     }
 
-    public   void main(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("CPU core available: " + Runtime.getRuntime().availableProcessors());
 
-        for (int i = 0; i <=100; i++) {
+        for (int i = 0; i <= 100; i++) {
             java.lang.Thread cashier1 = new java.lang.Thread(() -> {
                 getMoney(new Random().nextInt(100));
                 try {

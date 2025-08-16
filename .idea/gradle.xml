@@ -9,9 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/annotion" />
             <option value="$PROJECT_DIR$/connection" />
             <option value="$PROJECT_DIR$/generic" />
             <option value="$PROJECT_DIR$/java-doc" />
+            <option value="$PROJECT_DIR$/lombok" />
+            <option value="$PROJECT_DIR$/reflection" />
+            <option value="$PROJECT_DIR$/regex" />
             <option value="$PROJECT_DIR$/serialization" />
             <option value="$PROJECT_DIR$/solid" />
             <option value="$PROJECT_DIR$/stream" />

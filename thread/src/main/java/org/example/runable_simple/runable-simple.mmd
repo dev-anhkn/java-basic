@@ -1,0 +1,20 @@
+classDiagram
+    class Runnable {
+        +void run()
+    }
+
+    class Thread {
+        +void start()
+    }
+
+    class RunableSimple {
+        +void run()
+    }
+
+    class Main {
+        +static void main(String[] args)
+    }
+
+    Runnable <|.. RunableSimple : implements
+    Main --> RunableSimple : "creates"
+    Main --> Thread : "passes to Thread & calls start()"
