@@ -1,0 +1,21 @@
+package org.example.asynchronous_combine.combine;
+
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+import java.util.function.Supplier;
+
+public class PriceTask implements Supplier<Double> {
+    @Override
+    public Double get() {
+        try {
+            Random random = new Random();
+            int delay = random.nextInt(5) + 1; // Random từ 2s đến 6s
+            TimeUnit.SECONDS.sleep(delay); // Giả lập thời gian phản hồi từ API
+            System.out.println("Đã gọi API lấy giá sản phẩm trong thời gian " + delay + " giây");
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        return 500.0; // Giá gốc từ nhà cung cấp
+    }
+
+}

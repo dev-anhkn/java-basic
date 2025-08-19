@@ -1,0 +1,19 @@
+sequenceDiagram
+    autonumber
+    participant Main as SearchProductMain
+    participant Future1 as Amazon<br>Supplier<String>
+    participant Future2 as Ebay<br>Supplier<String>
+    participant Future3 as Shopee<br>Supplier<String>
+
+    Main->>Future1: supplyAsync
+    Main->>Future2: supplyAsync
+    Main->>Future3: supplyAsync
+
+    Note right of Main: Gọi anyOf(future1, future2, future3)
+
+    Future2-->>Main: Sản phẩm từ Ebay (nhanh nhất)
+
+    Main->>Main: thenAccept(Consumer): Lấy kết quả từ anyOf()
+    Main->>Main: Hiển thị sản phẩm
+
+    Note over Future1, Future3: Các Future khác tiếp tục chạy nhưng bị bỏ qua

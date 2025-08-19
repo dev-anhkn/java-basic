@@ -1,0 +1,1 @@
+package org.example.asynchronous.thenapply;import java.util.function.Function;public class WeatherApplier implements Function<String, String> {    @Override    public String apply(String key) {        System.out.println("WeatherApplier.apply");        return key.toUpperCase();    }}

@@ -1,0 +1,14 @@
+sequenceDiagram
+    autonumber
+    participant Main as ProductCombineMain
+    participant Future1 as PriceTask<br>Supplier<Double>
+    participant Future2 as DiscountTask<br>Supplier<Double>
+
+    Main->>Future1: supplyAsync
+    Main->>Future2: supplyAsync
+
+    Future2-->>Main: Trả về giảm giá (50)
+    Future1-->>Main: Trả về giá gốc (500)
+
+    Main->>Main: thenCombine(BiFunction) -> price - discount
+    Main->>Main: thenAccept(Consumer): Hiển thị giá cuối cùng: 450

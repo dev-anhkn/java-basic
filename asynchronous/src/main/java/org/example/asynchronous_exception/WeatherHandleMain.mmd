@@ -1,0 +1,14 @@
+flowchart TD
+    A[WeatherHandleMain] --> |Gọi API thời tiết| B[WeatherSupplier]
+    B -->|Thành công| C[Trả về dữ liệu thời tiết]
+    B -->|Lỗi| D[Xảy ra Exception]
+
+    C -->|Truyền kết quả| E[WeatherHandleFunction]
+    D -->|Truyền lỗi| E[WeatherHandleFunction]
+
+    E -->|Kiểm tra dữ liệu| G{Thành công <br/>hay lỗi?}
+    G -->|Thành công| H[Giữ nguyên dữ liệu thời tiết]
+    G -->|Lỗi| I[Thay thế bằng thông báo lỗi]
+
+    H --> F[WeatherConsumer<br>Nhận dữ liệu cuối cùng]
+    I -->F[WeatherConsumer<br>Nhận dữ liệu cuối cùng]

@@ -1,0 +1,8 @@
+flowchart TD
+    A["WeatherExceptionMain"] --> |Gọi API thời tiết| B["WeatherSupplier"]
+    B --> D{"Có thể<br>phát sinh lỗi"}
+    D -- Có --> F["WeatherExceptionFunction<br> Xử lý lỗi"]
+    F --> G["Trả về Giá trị thay thế"]
+    D -- Không --> H["Giữ nguyên dữ liệu thời tiết"]
+    G --> J["WeatherConsumer<br>Nhận dữ liệu cuối cùng"]
+    H --> J

@@ -1,0 +1,20 @@
+sequenceDiagram
+    autonumber
+    participant Main as FlightSearchMain
+    participant Future1 as Vietnam Airline<br>Supplier<List<String>>
+    participant Future2 as VietJet<br>Supplier<List<String>>
+    participant Future3 as Bamboo<br>Supplier<List<String>>
+
+    Main->>Future1: supplyAsync
+    Main->>Future2: supplyAsync
+    Main->>Future3: supplyAsync
+
+    Future1-->>Main: Danh sách chuyến bay Vietnam Airline
+
+    Future2-->>Main: Danh sách chuyến bay VietJet
+
+    Future3-->>Main: Danh sách chuyến bay Bamboo
+
+    Main->>Main: allOf(future1, future2, future3): Chờ tất cả hoàn thành
+    Main->>Main: thenRun(Runnable): Gộp tất cả kết quả
+    Main->>Main: Hiển thị kết quả

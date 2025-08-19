@@ -1,0 +1,9 @@
+flowchart TD
+    A[WeatherWhenMain] --> |Gọi API thời tiết| B[WeatherSupplier]
+    B -->|Thành công| C[Trả về dữ liệu thời tiết]
+    B -->|Lỗi| D[Xảy ra Exception]
+
+    C -->|Truyền kết quả| E[WeatherWhenHandle]
+    D -->|Truyền lỗi| E[WeatherWhenHandle]
+
+    E -->|Xử lý dữ liệu hoặc lỗi <br/>Không trả về kết quả| F[Hoàn thành xử lý dữ liệu]

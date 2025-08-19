@@ -1,0 +1,13 @@
+sequenceDiagram
+    autonumber
+    participant Main as ProductComposeMain
+    participant PriceTask as PriceTask<br>Supplier<Double>
+    participant DiscountTask as DiscountTaskCompose<br>Function<Double, CompletableFuture<Double>>
+
+    Main->>PriceTask: supplyAsync
+    PriceTask-->>Main: Trả về giá sản phẩm (500)
+
+    Main->>DiscountTask: thenCompose(new DiscountTaskCompose().apply(price))
+    DiscountTask-->>Main: Trả về giá sau khi giảm (price - 50)
+
+    Main->>Main: thenAccept(Consumer): Hiển thị giá cuối cùng

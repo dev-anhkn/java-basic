@@ -1,0 +1,1 @@
+package org.example.asynchronous.thenaccept;import java.util.function.Consumer;public class WeatherConsumer implements Consumer<String> {    @Override    public void accept(String s) {        System.out.println("WeatherConsumer.accept: " + s);    }}

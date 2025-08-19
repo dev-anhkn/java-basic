@@ -5,11 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="200e24ef-d2be-467a-b149-6c2826546e09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/annotion/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/AnnotationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/org/example/my_annotation/AnnotationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/org/example/my_annotation/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/org/example/my_annotation/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/java/org/example/my_annotation/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotion/src/main/resources/java-annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/annotation/src/main/resources/java-annotation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/logs/booking.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/assignment/PrimeSumParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/run/BookingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/run/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/run/LogTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/run/booking_sequence.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/supply/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/supply/WeatherSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/supply/weather_supplier_sequence.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/thenaccept/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/thenaccept/WeatherConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/thenaccept/weather_consumer_sequence.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/thenapply/WeatherApplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/thenapply/WeatherApplyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous/thenapply/weather_apply_pipeline.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/WeatherExceptionMain.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/WeatherHandleMain.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/WeatherWhenMain.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/consumer/WeatherConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/consumer/WeatherConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/exceptionally/WeatherExceptionFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/exceptionally/WeatherExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/handle/WeatherHandleFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/handle/WeatherHandleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/supplier/WeatherSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/when/WeatherWhenHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronous_exception/when/WeatherWhenMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +75,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,71 +90,107 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.java-basic:annotion [:annotion:AnnotationReader.main()].executor": "Run",
-    "Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor": "Run",
-    "Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor": "Run",
-    "Gradle.java-basic:generic [:generic:ContainerExample.main()].executor": "Run",
-    "Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor": "Run",
-    "Gradle.java-basic:generic [:generic:WildcardExample.main()].executor": "Run",
-    "Gradle.java-basic:reflection [:reflection:ClassObjectExample.main()].executor": "Run",
-    "Gradle.java-basic:reflection [:reflection:HiddenFieldExample.main()].executor": "Run",
-    "Gradle.java-basic:reflection [:reflection:PrivateMethodExample.main()].executor": "Run",
-    "Gradle.java-basic:regex [:regex:RegexLogAnalysis.main()].executor": "Run",
-    "Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor": "Run",
-    "Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:AlternatingPrint.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:ApiFetcherFixedDelay.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:CachedThreadPool.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:FixedThreadPool.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:Main.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:OneTimeEmailSender.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:SensorFixedRate.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:SingleThreadExecutor.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:ThreadDemo.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:TicketMain.main()].executor": "Run",
-    "Gradle.java-basic:thread [:thread:TicketMainAtomic.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "develop",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dev.anhkn/Development/github/java-basic/thread/src/main/java/org/example/runable_simple",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/dev.anhkn/Development/github/java-basic/lombok/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.java-basic:annotion [:annotion:AnnotationReader.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:asynchronous [:asynchronous:BookingMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:asynchronous [:asynchronous:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:asynchronous [:asynchronous:PrimeSumParallel.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:asynchronous [:asynchronous:WeatherApplyMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:asynchronous [:asynchronous:WeatherSupplierMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:design-pattens [:design-pattens:Client.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:design-pattens [:design-pattens:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:generic [:generic:ContainerExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:generic [:generic:MethodReturnExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:generic [:generic:WildcardExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:reflection [:reflection:ClassObjectExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:reflection [:reflection:HiddenFieldExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:reflection [:reflection:PrivateMethodExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:regex [:regex:RegexLogAnalysis.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:serialization [:serialization:DeserializationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:serialization [:serialization:SerializationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:AlternatingPrint.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:ApiFetcherFixedDelay.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:CachedThreadPool.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:FixedThreadPool.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:OneTimeEmailSender.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:SensorFixedRate.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:SingleThreadExecutor.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:ThreadDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:TicketMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-basic:thread [:thread:TicketMainAtomic.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dev.anhkn/Development/github/java-basic/asynchronous/src/main/java/org/example/thenaccept&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dev.anhkn/Development/github/java-basic/asynchronousException/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.thenapply" />
+      <recent name="org.example.thenaccept" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asynchronous/src/main/java/org/example/thenaccept" />
       <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/runable_simple" />
       <recent name="$PROJECT_DIR$/reflection/src/main/java" />
       <recent name="E:\dev\my\java-basic\design-pattens\src\main\java\org\example\creational_pattern\singleton_pattern\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asynchronous/src/main/java/org/example/asynchronousException" />
+      <recent name="$PROJECT_DIR$/synchronization/src/main/resources" />
+      <recent name="$PROJECT_DIR$/synchronization/src/main/java/org/example" />
       <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/synchronization" />
       <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/schduling_thread" />
-      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/thread_pool" />
-      <recent name="$PROJECT_DIR$/thread/src/main/resources" />
-      <recent name="$PROJECT_DIR$/thread/src/main/java/org/example/demo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Car" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlternatingPrint">
-    <configuration name="AlternatingPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.assignment.AlternatingPrint" />
-      <module name="java-basic.thread.main" />
+  <component name="RunManager" selected="Application.PrimeSumParallel">
+    <configuration name="BookingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.run.BookingMain" />
+      <module name="java-basic.asynchronous.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.supply.Main" />
+      <module name="java-basic.asynchronous.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.supply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeSumParallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.assignment.PrimeSumParallel" />
+      <module name="java-basic.asynchronous.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.assignment.*" />
@@ -140,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiFetcherFixedDelay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.schduling_thread.scheduler.ApiFetcherFixedDelay" />
-      <module name="java-basic.thread.main" />
+    <configuration name="WeatherApplyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.thenapply.WeatherApplyMain" />
+      <module name="java-basic.asynchronous.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.schduling_thread.scheduler.*" />
+          <option name="PATTERN" value="org.example.thenapply.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,38 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SensorFixedRate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.schduling_thread.scheduler.SensorFixedRate" />
-      <module name="java-basic.thread.main" />
+    <configuration name="org.example.thenaccept.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.thenaccept.Main" />
+      <module name="java-basic.asynchronous.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.schduling_thread.scheduler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.synchronization.problem.TicketMain" />
-      <module name="java-basic.thread.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.synchronization.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketMainAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.synchronization.solution.atomic.TicketMainAtomic" />
-      <module name="java-basic.thread.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.synchronization.solution.atomic.*" />
+          <option name="PATTERN" value="org.example.thenaccept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +229,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlternatingPrint" />
-        <item itemvalue="Application.TicketMainAtomic" />
-        <item itemvalue="Application.TicketMain" />
-        <item itemvalue="Application.ApiFetcherFixedDelay" />
-        <item itemvalue="Application.SensorFixedRate" />
+        <item itemvalue="Application.PrimeSumParallel" />
+        <item itemvalue="Application.WeatherApplyMain" />
+        <item itemvalue="Application.org.example.thenaccept.Main" />
+        <item itemvalue="Application.BookingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -212,11 +246,29 @@
       <updated>1754577727542</updated>
       <workItem from="1754577729016" duration="6495000" />
       <workItem from="1754618017693" duration="632000" />
-      <workItem from="1754668708665" duration="21449000" />
+      <workItem from="1754668708665" duration="22057000" />
+      <workItem from="1755311126482" duration="7148000" />
+      <workItem from="1755574138079" duration="353000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/synchronization/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/asynchronousException/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

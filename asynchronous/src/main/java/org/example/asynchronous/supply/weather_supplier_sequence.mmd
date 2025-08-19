@@ -1,0 +1,1 @@
+sequenceDiagram    autonumber    participant Main as WeatherSupplierMain    participant Supplier as WeatherSupplier Supplier<U>    Main->>Main: "Đang lấy thông tin thời tiết..."    Main->>Supplier: supplyAsync(new WeatherSupplier())    Supplier-->>Supplier: "Dữ liệu thời tiết..."    Supplier-->>Main: Trả về dữ liệu thời tiết    Main->>Main: "Thời tiết hôm nay..."

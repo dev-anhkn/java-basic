@@ -1,0 +1,1 @@
+sequenceDiagram    autonumber    participant Main as BookingMain    participant Service as BookingService    participant Log as LogTask    Main->>Service: bookTicket("Nga", "Mission Impossible", 12)    Service-->>Main: "Đặt vé thành công cho Nga"    Service->>Log: runAsync(LogTask)    Note right of Log: Ghi log bất đồng bộ (thread khác)
